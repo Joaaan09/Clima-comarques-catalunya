@@ -24,7 +24,7 @@ $(document).ready(function () {
                     comarcaSelect.append(`<option value="${comarca.id}">${comarca.nom}</option>`);
                 });
 
-            // Guardem les dades XML en una variable global per usar-les després 
+            // Guardem les dades en una variable global per utilitzar-les després 
             window.weatherXML = data;
         },
         error: function (xhr, status, error) {
